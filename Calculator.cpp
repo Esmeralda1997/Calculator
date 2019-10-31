@@ -282,7 +282,7 @@ Equation<T>::~Equation(){
 
 int main(){
 
-ifstream in("input34.txt"); 
+ifstream in("input34.txt"); //This can be changed
 ofstream out("output34.txt");
 	string inFix;
 	Equation<char> P;
