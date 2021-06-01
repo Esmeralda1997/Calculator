@@ -2,8 +2,7 @@
 #include <fstream>
 #include <string>
 #include <stdlib.h>
-#include <math.h>  
-#include "ArgumentManager.h"
+#include <math.h> 
 using namespace std;
 
 template <class T>
