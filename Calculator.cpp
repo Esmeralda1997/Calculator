@@ -280,10 +280,23 @@ Equation<T>::~Equation(){
 	}
 }
 
-int main(){
+int main(int argc, char* argv[]){
+	
+	if(argc < 3) {
+		// Tell the user how to run the program
+        cerr << "Input and output files not specified." << endl;
+        /* "Usage messages" are a conventional way of telling the user
+         * how to run a program if they enter the command incorrectly.
+         */
+        return 1;
+	}
 
-ifstream in("input34.txt"); //This can be changed
-ofstream out("output34.txt");
+
+	string i = argv[1];
+	string o = argv[2];
+
+	ifstream in("input/" + i);
+	ofstream out("output/" + o);
 	string inFix;
 	Equation<char> P;
 	Equation<long long int> E;
