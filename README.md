@@ -14,4 +14,4 @@ Then type the below command into the terminal:
 
 *Replace the input3-.txt and output3-.txt with the correct files in the directory. If you want to create new input files just add them to the input folder. 
 
-This program checks if the paranthesis in an expression are balanced and if they are it calculates the output of the expression.
+This program checks if the paranthesis in an expression is balanced and if it is, it then calculates the output of the expression.
